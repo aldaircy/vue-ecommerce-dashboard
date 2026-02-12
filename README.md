@@ -1,6 +1,6 @@
 # 🛒 vue-ecommerce-dashboard
 
-Un panel de administración construido con Vue 3 y TypeScript. Esta aplicación permite listar, buscar por nombre, filtrar por categorias y visualizar el detalle de un catálogo de productos consumidos desde una API, ofreciendo una experiencia de usuario fluida mediante una arquitectura escalable y un diseño minimalista realizado con CSS puro.
+Una aplicación construida con Vue 3 y TypeScript. Esta permite listar productos, buscarlos por nombre, filtrarlos por categorías y visualizar el detalle de un catálogo obtenido desde una API. Ofrece una experiencia de usuario fluida gracias a una arquitectura escalable y a un diseño minimalista realizado con CSS puro.
 
 ## ✨ Funcionalidades Principales
 
@@ -45,7 +45,7 @@ npm run dev
 
 ### ℹ️ ***Notas Importantes*** 
 
-_Para ejecutar la aplicacion sin ningún tipo de percance, debe verificar que su IDE tenga instalada la extension [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) y en caso de tener instalada [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), debe desactivarla._
+_Para ejecutar la aplicacion sin inconvenientes, verifique que su IDE tenga instalada la extension [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar). Ademas, si cuenta con la extensión [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), asegurese de desactivarla para evitar conflictos._
 
 ## 📄 Licencia
 

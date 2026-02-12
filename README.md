@@ -1,42 +1,56 @@
-# vue-ecommerce-dashboard
+# 🛒 vue-ecommerce-dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+Una aplicación construida con Vue 3 y TypeScript. Esta permite listar productos, buscarlos por nombre, filtrarlos por categorías y visualizar el detalle de un catálogo obtenido desde una API. Ofrece una experiencia de usuario fluida gracias a una arquitectura escalable y a un diseño minimalista realizado con CSS puro.
 
-## Recommended IDE Setup
+## ✨ Funcionalidades Principales
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 📡<strong>Consumo de API:</strong> Integración con servicios externos para la obtención dinámica de datos.
+- 🔍<strong>Búsqueda Dinámica:</strong> Filtrado en tiempo real de productos por nombre.
+- 🏷️<strong>Filtros por Categoría:</strong> Organización del catálogo mediante selectores de categorías.
+- 🖼️<strong>Detalle de Producto:</strong> Vista individualizada para visualizar toda la información técnica y comercial de un artículo específico.
+- 🔢<strong>Paginación de Datos:</strong> Navegación eficiente entre grandes listados de productos.
 
-## Recommended Browser Setup
+## 🛠️ Stack Tecnológico
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- <strong>Framework:</strong> Vue 3 (Composition API).
+- <strong>Lenguaje:</strong> TypeScript.
+- <strong>Gestión de Estado:</strong> Pinia.
+- <strong>Routing:</strong> Vue Router.
+- <strong>HTTP Client:</strong> Axios para el consumo de la API.
+- <strong>Estilos:</strong> CSS Puro (Vanilla CSS).
 
-## Type Support for `.vue` Imports in TS
+## 🚀 Instalación y Configuración
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Sigue estos pasos para levantar el proyecto en tu entorno local:
 
-## Customize configuration
+### 1 - Clonar el repositorio:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```sh
+git clone https://github.com/aldaircy/vue-ecommerce-dashboard.git
+```
 
-## Project Setup
+### 2 - Abrir repositorio en Visual Studio Code
+### 3 - Abrir terminal dentro de Visual Studio Code
+### 4 - Instalar dependencias:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 5 - Compilar y ejecutar en modo desarrollo:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### ℹ️ ***Notas Importantes*** 
 
-```sh
-npm run build
-```
+_Para ejecutar la aplicacion sin inconvenientes, verifique que su IDE tenga instalada la extension [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar). Ademas, si cuenta con la extensión [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), asegurese de desactivarla para evitar conflictos._
+
+## 📄 Licencia
+
+Este proyecto es de código abierto bajo la licencia MIT.
+
+Desarrollado por [Aldair](https://github.com/aldaircy/) 🎉
+
+

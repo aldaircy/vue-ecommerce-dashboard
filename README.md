@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-### ℹ️ ***Notas Importantes*** 
+### 💡 ***Notas Importantes*** 
 
 _Para ejecutar la aplicacion sin inconvenientes, verifique que su IDE tenga instalada la extension [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar). Ademas, si cuenta con la extensión [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur), asegurese de desactivarla para evitar conflictos._
 

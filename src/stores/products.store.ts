@@ -8,7 +8,7 @@ export const useProductsStore = defineStore('products', {
     search: '',
     category: '',
     currentPage: 1,
-    perPage: 10,
+    perPage: 8,
     loading: false,
     error: null as string | null
   }),
